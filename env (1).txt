@@ -1,0 +1,26 @@
+# These variables are only available locally in MiniOxygen
+# https://shopify.dev/docs/custom-storefronts/hydrogen/environment-variables
+
+## Shopify Environment Variables
+# A secret used to sign session cookies.
+SESSION_SECRET="foobar"
+# The public access token for the Storefront API.
+PUBLIC_STOREFRONT_API_TOKEN="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"
+# (Optional) The Storefront API version.
+# Defaults to the version of the Storefront API used by Hydrogen.
+PUBLIC_STOREFRONT_API_VERSION="2023-01"
+# The domain of the store used to communicate with the Storefront API.
+PUBLIC_STORE_DOMAIN="plantgems.myshopify.com"
+
+## Sanity Environment Variables
+# Project ID
+SANITY_PROJECT_ID="zsih4326"
+# Dataset name
+SANITY_DATASET="production"
+# (Optional) Sanity API version
+SANITY_API_VERSION="2024-01-31"
+# Sanity token to authenticate requests in "preview" mode
+# https://www.sanity.io/docs/http-auth
+SANITY_API_TOKEN="skhMacnWo8OWoaN3yGiTYXF4g1P2wUEPxDJO45S1yGmRFa7EqL9IFqQF7Qx4jFuYqozqal9KDKK8BjvJnqGqTqpFrj5F0di7NpgCSOd8kbjWZ0zUf22458nWBTQUQJrHDcKlnX05nJt9D1EjQ0nF10hpvyTt5UYLkVJyQ0Xyv4M2Atg2LObk"
+# Secret for authenticating preview mode
+SANITY_PREVIEW_SECRET=""
